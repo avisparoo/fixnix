@@ -7,10 +7,6 @@ Domain: apoorva00.tk
 Domain: apoorva11.tk 
 ec2-18-222-250-141.us-east-2.compute.amazonaws.com
 
-Phpmyadmin creds:
-user: root
-password: apoorva
-
 Task 2: Done
 Domain is apoorva00.tk
 Login page is currently uploaded here.
