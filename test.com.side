@@ -1,0 +1,115 @@
+{
+  "id": "7d5952d7-82ac-44a9-af57-cb8d16f5ed22",
+  "version": "2.0",
+  "name": "test.com",
+  "url": "https://apoorva00.tk",
+  "tests": [{
+    "id": "aa8d964c-ef29-4804-aa79-bfa3f27088c1",
+    "name": "login of an existing user",
+    "commands": [{
+      "id": "f816460e-0065-4b7c-9a01-f0de07aecb2a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "584bc7cf-749f-4ea1-be7b-48d81b96803a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "768x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d824181f-80fa-49d5-b9f4-1c2b92bfcc64",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailusername",
+      "targets": [
+        ["name=emailusername", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='emailusername']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f054f19-159f-4159-bd8f-e87cdbeb8955",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailusername",
+      "targets": [
+        ["name=emailusername", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='emailusername']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a@a"
+    }, {
+      "id": "be3f21e1-7975-4fd3-9778-c0469a52b9b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/form/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0db9ecb-8cf1-4d2f-93b0-7a07c3ab894d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/form/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "b4e2b0a8-0c17-42ed-a753-66c328ec2115",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/form/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cfb52c2-3a30-44fe-9149-3c977d2a1855",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LOGOUT",
+      "targets": [
+        ["linkText=LOGOUT", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'LOGOUT')]", "xpath:link"],
+        ["xpath=//div[@id='header']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'home.php?q=logout')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'LOGOUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0e46e462-b182-42a7-a34d-73c9250498c1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aa8d964c-ef29-4804-aa79-bfa3f27088c1"]
+  }],
+  "urls": ["https://test.com/", "https://apoorva00.tk/"],
+  "plugins": []
+}
